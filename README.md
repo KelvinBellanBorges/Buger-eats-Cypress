@@ -23,7 +23,7 @@ Projeto desenvolvido para o curso Cypress Discovery do [QAninja](https://qaninja
 ## :checkered_flag: Como Executar o Projeto
 ```bash
 # Clone este repositório
-$ git clone https://github.com/nayaraquino/cypress_discovery_qaninja.git
+$ git clone https://github.com/KelvinBellanBorges/cypress_discovery_qaninja.git
 ```
 A execução pode ser feita através da linha de comando ou do próprio framework.
 - Através da linha de comando:
