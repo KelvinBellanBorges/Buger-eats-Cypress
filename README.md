@@ -48,7 +48,7 @@ $ npx cypress run
 
 
 ##
-Feito com ❤️ por <a href="https://www.linkedin.com/in/nayaraquino/">Nayara Aquino</a> :wave: Entre em contato!
+Feito com carinho por Kelvin Bellan Borges :wave: Entre em contato!
 <div> 
   <a href="https://www.instagram.com/kelvin.bellan/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href = "mailto:contatorafaballerini@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
