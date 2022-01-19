@@ -1,0 +1,50 @@
+{
+    "signup": {
+        "name": "Kelvin Bellan",
+        "cpf": "60047961074",
+        "email": "kelvin.bellan@gmail.com",
+        "whatsapp": "51992753553",
+        "address": {
+            "postalcode": "93800036",
+            "street": "Rua Padre Reus",
+            "number": "451",
+            "details": "Floricultura",
+            "district": "Centro",
+            "city_state": "Sapiranga/RS"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "cpf_inv": {
+        "name": "Claudio Arthur",
+        "cpf": "x004796107AA",
+        "email": "claudio@gmail.com",
+        "whatsapp": "519876543210",
+        "address": {
+            "postalcode": "93800036",
+            "street": "Rua Padre Reus",
+            "number": "451",
+            "details": "Floricultura",
+            "district": "Centro",
+            "city_state": "Sapiranga/RS"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "email_inv": {
+        "name": "Claudio Arthur",
+        "cpf": "60047961074",
+        "email": "claudio.com.br",
+        "whatsapp": "51987654321",
+        "address": {
+            "postalcode": "93800036",
+            "street": "Rua Padre Reus",
+            "number": "451",
+            "details": "Floricultura",
+            "district": "Centro",
+            "city_state": "Sapiranga/RS"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    }
+}
