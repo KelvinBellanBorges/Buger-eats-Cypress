@@ -34,7 +34,7 @@ $ npx cypress open
 - Através do framework:
 Basta abrir o Cypress e através da interface dele escolher a pasta do projeto.
 
-Após isso, é só escolher a spec desejada e assistir a execução dos testes.
+Após isso, é só escolher a "SPEC" desejada e assistir a execução dos testes.
 
 
 ![running test](https://user-images.githubusercontent.com/71460952/114319822-7ec79a80-9ae9-11eb-951e-66e0c20e730a.gif)
