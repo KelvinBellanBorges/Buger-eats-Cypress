@@ -1,57 +1,64 @@
-# Teste de GUI com Cypress
-### [Cypress Discovery](https://qaninja.academy/curso/cypress-discovery/) - QAninja
+# SynecoToolsAutomation
+
+Automações E2E 
+
 ---
-Projeto desenvolvido para o curso Cypress Discovery do [QAninja](https://qaninja.academy/).
+Projeto desenvolvido para efetuar testes "End 2 End".
 
-#### :information_source: O projeto de testes foi realizado sobre a aplicação [Buger Eats](https://buger-eats-qa.vercel.app), desenvolvida pelo [Fernando Papito](https://www.linkedin.com/in/papitoio/) para a realização do curso =)
+## :hammer_and_wrench: Como fazer todas instalações necessárias e suas Tecnologias Utilizadas
+### [Python](https://www.python.org/downloads/)
+- Acesse o link acima e faça o download do Python
+- Quando feito o Download do Python, execute-o.
+- Clique em Add "Python (Versão atual)" to path
+- Em seguida clique em installar.
+- Após ser feita a instalação do Python iremos verificar a versão do mesmo
+- Abra seu CMD como administrador e execute os seguintes códigos:
+```bash
+# Comando para ver a versão do Python
+$ pyhton --version
+# Comando para ver a versão do Pip e a do Python
+$ pip --version 
+```
+<br>
 
-## :books: Conceitos Apresentados no Módulo
-- Introdução ao Javascript
-- Checkpoints
-- Page Objects
-- Teste multibrowser
-- Refatoração
-- Evidências
+### [RobotFramework](https://robotframework.org/)
+```bash
+- Instalar o node.js por exemplo, a partir deste link "https://nodejs.org/en/download/"
+
+# Atualize o pip
+$ pip install -U pip
+# Instalar uma library Browser
+$ pip install robotframework-browser
+# Instalar uma library SeleniumWebdriver
+$ pip install robotframework-seleniumlibrary
+# Dependências do Node.js
+$ rfbrowser init 
+```
 
 
-## :hammer_and_wrench: Tecnologias Utilizadas
-- [Cypress](https://www.cypress.io/)
-- [Node.js](https://nodejs.org/en/)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
+### [Visual Studio Code](https://code.visualstudio.com/download)
+- Abra o Visual Studio Code
+- Vá até as opções de "Extenção"
+- Baixe as seguintes Extenções:
+    - Portuguese (Brazil) Language // Caso queira o visual studio em Português 
+    - Material Icon Theme 
+    - Robot Framework Intellisense
+- Para abrir o seu terminal precione: (Ctrl+Shift+')
+<br>
 
 ## :checkered_flag: Como Executar o Projeto
+
+- Após abrir o terminal, digite os seguintes comandos:
 ```bash
-# Clone este repositório
-$ git clone https://github.com/KelvinBellanBorges/cypress_discovery_qaninja.git
+# Clonar repositório
+$ git clone "https://gitlab.com/synecotoolsautomation/synecotoolsautomation.git" 
 ```
-A execução pode ser feita através da linha de comando ou do próprio framework.
-- Através da linha de comando:
-```bash
-# Na pasta cypress_discovery_qaninja, execute:
-$ npx cypress open
-```
-- Através do framework:
-Basta abrir o Cypress e através da interface dele escolher a pasta do projeto.
+A execução pode ser feita através do próprio framework.
 
-Após isso, é só escolher a "SPEC" desejada e assistir a execução dos testes.
-
-
-![running test](https://user-images.githubusercontent.com/71460952/114319822-7ec79a80-9ae9-11eb-951e-66e0c20e730a.gif)
-
-OU
+- Através do framework (terminal):
 
 ```bash
-# Na pasta cypress_discovery_qaninja, execute:
-$ npx cypress run
+# Na pasta "C:\SKA\SynecoTools", execute:
+
+robot -d ./results -v browser:chromium -v headless:False TestSuite\SynecoTools.robot
 ```
-
-
-##
-Feito com carinho por Kelvin Bellan Borges :wave: Entre em contato!
-<div> 
-  <a href="https://www.instagram.com/kelvin.bellan/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href = "mailto:contatorafaballerini@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/kelvin-bellan-borges-68273a15a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-
-</div>
